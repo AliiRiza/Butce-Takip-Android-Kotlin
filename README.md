@@ -32,7 +32,7 @@ Kullanıcıların finansal durumlarını anlık olarak görüntülemesini, harca
 ##  Kurulum (APK)
 
 Uygulamanın son sürümünü denemek için aşağıdaki linkten APK dosyasını indirebilirsiniz:
-[Son Sürümü İndir (v1.0)](https://github.com/KULLANICI_ADIN/PROJE_ADIN/releases) 
+[Son Sürümü İndir (v1.0)](https://github.com/AliiRiza/Butce-Takip-Android-Kotlin/releases) 
 ##  Geliştirici
 
 **[Ali Rıza Demir]**
