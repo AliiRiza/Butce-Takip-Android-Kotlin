@@ -35,9 +35,7 @@ Uygulamanın son sürümünü denemek için aşağıdaki linkten APK dosyasını
 [Son Sürümü İndir (v1.0)](https://github.com/KULLANICI_ADIN/PROJE_ADIN/releases) 
 ##  Geliştirici
 
-**[Senin Adın Soyadın]**
-* LinkedIn: [Profil Linkin]
-* Email: [Email Adresin]
+**[Ali Rıza Demir]**
 
 ---
 *Bu proje Mobil Programlama dersi kapsamında geliştirilmiştir.*
