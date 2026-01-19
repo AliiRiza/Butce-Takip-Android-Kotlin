@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/splash_gradient"> <ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@mipmap/ic_launcher_round"
+    android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bütçe Takip Sistemi"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kişisel Cüzdan Yönetimi"
+        android:textColor="#E3F2FD"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:alpha="0.8"/>
+
+</LinearLayout>

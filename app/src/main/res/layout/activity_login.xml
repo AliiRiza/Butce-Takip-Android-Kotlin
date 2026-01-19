@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_lock_lock"
+        android:layout_marginBottom="20dp"
+        app:tint="#2196F3"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+    <TextView
+        android:id="@+id/txtBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GÜVENLİ GİRİŞ"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etKullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Adı"
+        android:background="@android:drawable/edit_text"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etSifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:background="@android:drawable/edit_text"
+        android:padding="15dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnGiris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GİRİŞ YAP"
+        android:padding="15dp"
+        android:backgroundTint="#2196F3"/>
+
+</LinearLayout>

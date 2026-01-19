@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtRowAciklama"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:text="Market Alışverişi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txtRowTutar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="150.0 TL"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#D32F2F"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtRowTarih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2025-12-14"
+        android:textSize="14sp"
+        android:textColor="#757575"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>
